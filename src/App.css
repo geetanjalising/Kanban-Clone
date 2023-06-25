@@ -1,0 +1,72 @@
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  border: 1px solid gray;
+}
+.app_nav h3{
+  color: #656262;
+  font-style: italic;
+}
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app_nav {
+  padding: 30px;
+  
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  background-color: #e2dddd;
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.app_boards_container {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  padding-top: 20px;
+  background: url(Untitled.png);
+ 
+  background-size: cover;
+}
+
+.app_boards {
+  height: 100%;
+  width: fit-content;
+  padding: 10px 30px;
+  display: flex;
+  
+  gap: 30px;
+}
+
+.app_boards_last {
+  flex-basis: 290px;
+  min-width: 290px;
+}
+
+.app_boards_add-board {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  text-align: center;
+}
+.app_boards_add-board_edit {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
